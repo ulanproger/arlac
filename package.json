@@ -1,0 +1,40 @@
+{
+  "name": "arlac",
+  "version": "0.0.1",
+  "description": "API Rate Limit Aware Client",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ulanproger/arlac.git"
+  },
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json",
+    "watch": "tsc --build --watch"
+  },
+  "dependencies": {
+    "axios": "^1.4.0"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.1.1",
+    "@types/node": "^20.2.5",
+    "@typescript-eslint/eslint-plugin": "^5.59.5",
+    "@typescript-eslint/parser": "^5.59.5",
+    "eslint": "^8.40.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.8",
+    "typescript": "^5.0.4"
+  },
+  "keywords": [
+    "api",
+    "concurrent",
+    "429-too-many-requests"
+  ],
+  "author": "Ulan Omurkulov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ulanproger/arlac/issues"
+  },
+  "homepage": "https://github.com/ulanproger/arlac#readme"
+}
